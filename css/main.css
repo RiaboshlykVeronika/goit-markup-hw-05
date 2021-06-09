@@ -450,18 +450,14 @@ img {
     padding: 25px 25px;
     border-radius: 4px;
 }
-.clients-item {
-    margin-right: 30px;
-}
 
-.clients-link {
+.clients-item {
     display: flex;
     align-items: center;
     justify-content: center;
     fill: var(--link-color);
     border-color: var(--link-color);
     border: 1px solid var(--link-color);
-    opacity: 0;
     border-radius: 4px;
     padding: 16px 32px; 
 }
@@ -470,10 +466,11 @@ img {
     margin-right: 30px;
 }
 
-.clients-link:hover, .clients-link:focus {
+.clients-item:hover, .clients-item:focus {
     fill: var(--accent-color);
     border-color: var(--accent-color);
 }
+
 
 .links-list {
     display: flex;
